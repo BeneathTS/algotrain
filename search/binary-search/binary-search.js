@@ -1,7 +1,7 @@
 export const binarySearch = (array, searchValue) => {
-    let first = 0,
-        last = array.length - 1,
-        curr
+    let first = 0
+    let last = array.length - 1
+    let curr
 
     while (first <= last) {
         curr = Math.floor((last + first) / 2)
